@@ -1,27 +1,24 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
-    "url":"https://vrchat-community.github.io/template-package-listing/index.json",
-    "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+    "name": "Package Listing",
+    "id": "net.magma-mc.packages",
+    "url": "https://magmamcnet.github.io/VPM/index.json",
+    "author": {
+        "email":"magma.mc@magma-mc.net",
+        "name":"MagmaMc",
+        "url":"https://profile.magma-mc.net"
     },
-    "description":"Example listing of VRChat packages",
-    "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
+    "description": "Listing Of All My Public Packages",
+    "infoLink": {
+        "url":"http://github.com/MagmaMcNet/VPM/",
         "text":"View on GitHub"
     },
-    "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
-    "packages":[
+    "bannerUrl": "banner.png",
+    "githubRepos": [],
+    "packages": [
         {
-            "name":"com.vrchat.udonsharp",
+            "name":"net.magma-mc.shaders",
             "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
+                "https://github.com/MagmaMcNet/net.magma-mc.shaders/releases/download/1.5.0/1.5.0.zip"
             ]
         }
     ]
