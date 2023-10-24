@@ -127,12 +127,12 @@ h1 {
 }
 
 .bannerImage {
-  aspect-ratio: 5 / 1;
-  border-radius: 6px;
+  aspect-ratio: 3.5 / 1;
+  border-radius: 8px;
   max-width: 90%;
   width: 100%;
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   margin-bottom: 0.25rem;
 }

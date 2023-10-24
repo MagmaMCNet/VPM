@@ -6,6 +6,9 @@
   <title>VCC Listing</title>
   <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.magma-mc.net/Assets/CSS/StaryBackground.css">
+  <script type="text/javascript" src="https://cdn.magma-mc.net/Assets/JS/LazyLoading.js"></script>
+
 </head>
 <body>
   <div class="col align-items-center content">
@@ -26,11 +29,6 @@
         </fluent-tooltip>
         {{~ end; ~}}
         <div class="caption1 mb-2" id="publishedByText">Published by <a href="{{listingInfo.Author.Url}}" target="_blank">{{ listingInfo.Author.Name }}</a></div>
-        {{~ if listingInfo.InfoLink.Url ~}}
-          <div class="caption1" id="publishedByText">
-            <a href="{{listingInfo.InfoLink.Url}}" target="_blank">{{ if listingInfo.InfoLink.Text; listingInfo.InfoLink.Text; else; "Lean More"; end; }}</a>
-          </div>
-        {{~ end; ~}}
       </div>
     </div>
     <div class="addToVccBlock mt-4 row align-items-center">
@@ -165,7 +163,6 @@
             </svg>
           </fluent-button>
         </div>
-        <div class="caption1 mt-4">You can read more about Package Listings <a href="https://vcc.docs.vrchat.com" target="_blank">on the VCC docs</a></div>
       </div>
     </fluent-dialog>
     <fluent-card class="packages">
@@ -209,12 +206,8 @@
         {{~ end ~}}
       </fluent-data-grid>
     </fluent-card>
-    {{~ if listingInfo.InfoLink.Url ~}}
-      <div class="caption1" id="publishedByText">
-        <a href="{{listingInfo.InfoLink.Url}}" target="_blank">{{ if listingInfo.InfoLink.Text; listingInfo.InfoLink.Text; else; "Lean More"; end; }}</a>
-      </div>
-    {{~ end; ~}}
   </div>
   <script type="module" src="app.js"></script>
+  <script type="text/javascript" src="https://cdn.magma-mc.net/Assets/JS/StaryBackground.js"></script>
 </body>
 </html>
