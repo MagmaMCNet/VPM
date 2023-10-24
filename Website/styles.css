@@ -354,3 +354,6 @@ h1 {
 .flex-1 {
   flex: 1;
 }
+section {
+  z-index: -1 !important;
+}
