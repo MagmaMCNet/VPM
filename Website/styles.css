@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light dark;
+  color-scheme:  dark;
 }
 
 * {
@@ -124,6 +124,9 @@ h1 {
   display: block;
   text-decoration: none;
   color: var(--neutral-foreground-rest);
+}
+a {
+  text-decoration: none !important;
 }
 
 .bannerImage {

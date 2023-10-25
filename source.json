@@ -3,23 +3,15 @@
     "id": "net.magma-mc.packages",
     "url": "https://magmamcnet.github.io/VPM/index.json",
     "author": {
-        "email":"magma.mc@magma-mc.net",
-        "name":"MagmaMc",
-        "url":"https://profile.magma-mc.net"
+        "email": "magma.mc@magma-mc.net",
+        "name": "MagmaMc",
+        "url": "https://profile.magma-mc.net"
     },
     "description": "Listing Of All My Public Packages",
-    "infoLink": {
-        "url":"http://github.com/MagmaMcNet/VPM/",
-        "text":"View on GitHub"
-    },
     "bannerUrl": "banner.png",
-    "githubRepos": [],
-    "packages": [
-        {
-            "name":"net.magma-mc.shaders",
-            "releases":[
-                "https://github.com/MagmaMcNet/net.magma-mc.shaders/releases/download/1.5.0/1.5.0.zip"
-            ]
-        }
-    ]
+    "githubRepos": [
+        "MagmaMcNet/Shaders",
+        "MagmaMcNet/AdminUtil"
+    ],
+    "packages": []
 }
