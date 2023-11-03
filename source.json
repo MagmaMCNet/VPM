@@ -11,7 +11,8 @@
     "bannerUrl": "banner.png",
     "githubRepos": [
         "MagmaMcNet/Shaders",
-        "MagmaMcNet/AdminUtil"
+        "MagmaMcNet/AdminUtil",
+        "MagmaMcNet/AdminUtil.Extended"
     ],
     "packages": []
 }
