@@ -12,7 +12,8 @@
     "githubRepos": [
         "MagmaMcNet/Shaders",
         "MagmaMcNet/AdminUtil",
-        "MagmaMcNet/AdminUtil.Extended"
+        "MagmaMcNet/AdminUtil.Extended",
+        "MagmaMcNet/Utils"
     ],
     "packages": []
 }
