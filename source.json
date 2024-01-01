@@ -13,7 +13,8 @@
         "MagmaMcNet/Shaders",
         "MagmaMcNet/AdminUtil",
         "MagmaMcNet/AdminUtil.Extended",
-        "MagmaMcNet/Utils"
+        "MagmaMcNet/Utils",
+        "MagmaMcNet/PermissionManager"
     ],
     "packages": []
 }
