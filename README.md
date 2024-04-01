@@ -1,5 +1,3 @@
-:construction: Please note that we are currently experiencing issues with the backend CDN server. As a result, VPM may not work correctly. :construction:
-
 # Magma's Package Listing
 
 A Package Listing For All My Public Unity Packages For VRChat
